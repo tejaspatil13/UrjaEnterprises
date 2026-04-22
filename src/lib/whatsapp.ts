@@ -14,6 +14,7 @@ export function buildQuoteMessage(product?: Product) {
     "Hello Urja Enterprises, I want a quote.",
     product ? `Product: ${product.name}` : "",
     product?.category ? `Category: ${product.category}` : "",
+    product?.productUrl ? `IndiaMart Link: ${product.productUrl}` : "",
     imageLine(product),
     "Please share price, availability and delivery timeline.",
   ].filter(Boolean);

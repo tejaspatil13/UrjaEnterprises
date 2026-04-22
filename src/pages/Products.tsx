@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { Search } from "lucide-react";
 import { Layout } from "@/components/Layout";
 import { ProductCard } from "@/components/ProductCard";
@@ -8,6 +9,7 @@ import { getProducts, PRODUCT_CATALOG } from "@/lib/products";
 import { Product, CATEGORIES } from "@/types/product";
 
 const Products = () => {
+  const navigate = useNavigate();
   const [products, setProducts] = useState<Product[]>([]);
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState<string>("All");
@@ -33,10 +35,9 @@ const Products = () => {
   return (
     <Layout>
       <section className="bg-primary text-primary-foreground">
-        <div className="container-pro py-16">
-          <div className="text-xs font-semibold text-accent uppercase tracking-wider mb-2">Catalog</div>
-          <h1 className="font-display font-bold text-4xl sm:text-5xl mb-3">Our Products</h1>
-          <p className="opacity-85 max-w-2xl">Browse our complete range of electrical equipment, circuit breakers, transformers and panel spares.</p>
+        <div className="container-pro py-6">
+          <h1 className="font-display font-bold text-2xl sm:text-3xl mb-1">Our Products</h1>
+          <p className="opacity-85 max-w-2xl text-sm">Browse our complete range of electrical equipment, circuit breakers, transformers and panel spares.</p>
         </div>
       </section>
 
@@ -51,8 +52,8 @@ const Products = () => {
           />
         </div>
 
-        <div className="grid lg:grid-cols-[280px,1fr] gap-8">
-          <aside className="h-fit lg:sticky lg:top-24 rounded-lg border border-border bg-card p-4 shadow-card">
+        <div className="flex flex-col lg:grid lg:grid-cols-[280px,1fr] gap-8">
+          <aside className="order-2 lg:order-1 h-fit lg:sticky lg:top-24 rounded-lg border border-border bg-card p-4 shadow-card">
             <h2 className="font-display font-semibold text-primary mb-3">Product Categories</h2>
             <div className="space-y-2">
               <Button
@@ -93,7 +94,14 @@ const Products = () => {
                           variant={subCategory === sc ? "secondary" : "ghost"}
                           size="sm"
                           className="w-full justify-start whitespace-normal h-auto py-1.5"
-                          onClick={() => setSubCategory(sc)}
+                          onClick={() => {
+                            const match = products.find((p) => p.name === sc);
+                            if (match) {
+                              navigate(`/products/${match.id}`);
+                            } else {
+                              setSubCategory(sc);
+                            }
+                          }}
                         >
                           {sc}
                         </Button>
@@ -105,7 +113,7 @@ const Products = () => {
             </div>
           </aside>
 
-          <div>
+          <div className="order-1 lg:order-2">
             <div className="flex flex-wrap gap-2 mb-6">
               {(["All", ...CATEGORIES] as string[]).map((c) => (
                 <Button
@@ -128,7 +136,7 @@ const Products = () => {
                 No products match your current filters.
               </div>
             ) : (
-              <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
+              <div className="grid grid-cols-2 sm:grid-cols-2 xl:grid-cols-3 gap-3 md:gap-6">
                 {filtered.map((p) => (
                   <ProductCard key={p.id} product={p} />
                 ))}
