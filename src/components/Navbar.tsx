@@ -51,7 +51,7 @@ export function Navbar() {
                 Urja Enterprises
               </div>
               <div className="text-xs text-muted-foreground">
-                Electrical Equipment & Spares
+                Wholesale Trader and Exporter of Circuit Breaker
               </div>
             </div>
           </Link>
