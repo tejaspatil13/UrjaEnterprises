@@ -47,9 +47,9 @@ const Index = () => {
       <section className="container-pro pt-6 pb-16">
         <div className="flex items-end justify-between flex-wrap gap-4 mb-6">
           <div>
-            <h1 className="font-display font-bold text-2xl sm:text-3xl text-primary">Featured Products</h1>
+            <h1 className="font-display font-bold text-2xl sm:text-3xl text-primary">Urja Enterprises — Featured Products</h1>
             <p className="text-muted-foreground mt-1 max-w-xl text-sm sm:text-base">
-              Quick access to our top-selling electrical equipment and spares.
+              Quick access to our top-selling electrical equipment and spares directly from Urja Enterprises.
             </p>
           </div>
           <Button asChild variant="outline" size="sm" className="hidden sm:inline-flex">
@@ -105,6 +105,105 @@ const Index = () => {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* SEO CONTENT SECTION */}
+      <section className="container-pro py-16 border-t border-border bg-card">
+        <div className="max-w-4xl mx-auto space-y-12">
+          
+          <div className="space-y-6">
+            <h1 className="font-display font-bold text-3xl sm:text-4xl text-primary">
+              Premium VCB Closing & Tripping Coils – Siemens, CGL Compatible
+            </h1>
+            <p className="text-muted-foreground leading-relaxed text-lg">
+              Urja Enterprises manufactures and supplies high-quality VCB closing coils and tripping coils suitable for Siemens, CGL, and other leading breaker brands. Our coils are designed for 11KV and 33KV systems with reliable performance.
+            </p>
+          </div>
+
+          <div className="space-y-4">
+            <h2 className="font-display font-bold text-2xl text-primary">Our Product Range</h2>
+            <ul className="list-disc pl-5 space-y-2 text-muted-foreground text-lg">
+              <li>VCB Closing & Tripping Coils (Siemens/CGL Compatible)</li>
+              <li>VCB Spring Charging Mechanism & Spare Parts</li>
+              <li>Auxiliary Switches & Limit Switches</li>
+              <li>Epoxy Pole Assembly & Insulators</li>
+            </ul>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="space-y-4">
+              <h2 className="font-display font-bold text-xl text-primary">Siemens VCB Compatible Coils</h2>
+              <p className="text-muted-foreground leading-relaxed">
+                Our premium VCB tripping and closing coils are precisely engineered to be fully compatible with major Siemens VCB models, including the widely used 3AH series, 3WL series, and SION vacuum circuit breakers. They ensure immediate, reliable interruption of abnormal fault currents perfectly matching Siemens' exact specifications.
+              </p>
+            </div>
+            <div className="space-y-4">
+              <h2 className="font-display font-bold text-xl text-primary">CGL 11KV VCB Trip & Close Coils</h2>
+              <p className="text-muted-foreground leading-relaxed">
+                We offer highly reliable Trip & Close Coils designed specifically for Crompton Greaves (CGL) 11KV Vacuum Circuit Breakers as well as various SF6 gas circuit breakers. Whether your CGL breaker requires rapid energy release or dependable shunt opening, our coils guarantee maximum lifecycle durability.
+              </p>
+            </div>
+          </div>
+
+          <div className="space-y-4">
+            <h2 className="font-display font-bold text-2xl text-primary">Technical Specifications</h2>
+            <div className="overflow-x-auto rounded-lg border border-border">
+              <table className="w-full text-left text-sm">
+                <thead className="bg-muted text-muted-foreground">
+                  <tr>
+                    <th className="px-6 py-4 font-semibold uppercase tracking-wider">Parameter</th>
+                    <th className="px-6 py-4 font-semibold uppercase tracking-wider">Specification</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-border bg-card">
+                  <tr>
+                    <td className="px-6 py-4 font-medium">Voltage Range</td>
+                    <td className="px-6 py-4 text-muted-foreground">24V DC / 48V DC / 110V DC</td>
+                  </tr>
+                  <tr>
+                    <td className="px-6 py-4 font-medium">Suitable For</td>
+                    <td className="px-6 py-4 text-muted-foreground">Siemens, CGL, ABB VCB</td>
+                  </tr>
+                  <tr>
+                    <td className="px-6 py-4 font-medium">Type</td>
+                    <td className="px-6 py-4 text-muted-foreground">Closing Coil / Tripping Coil</td>
+                  </tr>
+                  <tr>
+                    <td className="px-6 py-4 font-medium">Breaker Type</td>
+                    <td className="px-6 py-4 text-muted-foreground">VCB / SF6</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div className="space-y-6">
+            <h2 className="font-display font-bold text-2xl text-primary">Common Questions About VCB Coils</h2>
+            <div className="space-y-5">
+              <div className="bg-muted p-5 rounded-lg border border-border">
+                <h3 className="font-semibold text-lg text-primary mb-2">How do I know if my tripping coil needs replacement?</h3>
+                <p className="text-muted-foreground">
+                  You may need a replacement if your circuit breaker fails to trip during a fault, shows sluggish opening times, or if the coil exhibits visible burn marks, physical damage, or low insulation resistance.
+                </p>
+              </div>
+              <div className="bg-muted p-5 rounded-lg border border-border">
+                <h3 className="font-semibold text-lg text-primary mb-2">Are these coils suitable for CGL 11 KV SF6 breakers?</h3>
+                <p className="text-muted-foreground">
+                  Yes, our trip and close coils are fully compatible. Finding a <strong>Trip Close Coil Suitable CGL SF6 Breaker</strong> is critical for system safety, and our components meet all essential operational ratings for CGL 11KV setups.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="pt-6">
+            <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent-glow font-semibold w-full sm:w-auto text-lg h-14">
+              <a href={quoteUrl} target="_blank" rel="noreferrer">
+                📞 Contact Us for Price & Availability
+              </a>
+            </Button>
+          </div>
+
         </div>
       </section>
 

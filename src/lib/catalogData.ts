@@ -152,9 +152,11 @@ export const RAW_CATALOG: Array<{
   },
 ];
 
+export const createSlug = (text: string) => text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+
 export const CATALOG_PRODUCTS: Product[] = RAW_CATALOG.flatMap((entry, categoryIndex) =>
   entry.products.map((item, itemIndex) => ({
-    id: `seed-${categoryIndex + 1}-${itemIndex + 1}`,
+    id: createSlug(item.name),
     name: item.name,
     category: entry.category,
     subCategory: item.name,

@@ -13,8 +13,8 @@ import {
   setDoc,
 } from "firebase/firestore";
 
-const STORAGE_KEY = "urja_products_v1";
-const PRODUCTS_COLLECTION = "products";
+const STORAGE_KEY = "urja_products_v2";
+const PRODUCTS_COLLECTION = "products_v2";
 
 export const PRODUCT_CATALOG: Record<string, string[]> = {
   ...CATALOG_CATEGORY_MAP,

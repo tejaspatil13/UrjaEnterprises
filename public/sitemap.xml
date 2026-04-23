@@ -20,28 +20,48 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url><loc>https://urjaenterprises.in/products/seed-1-1</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://urjaenterprises.in/products/seed-1-2</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://urjaenterprises.in/products/seed-1-3</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://urjaenterprises.in/products/seed-1-4</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://urjaenterprises.in/products/seed-1-5</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://urjaenterprises.in/products/seed-1-6</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://urjaenterprises.in/products/seed-2-1</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://urjaenterprises.in/products/seed-2-2</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://urjaenterprises.in/products/seed-2-3</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://urjaenterprises.in/products/seed-2-4</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://urjaenterprises.in/products/seed-3-1</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://urjaenterprises.in/products/seed-3-2</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://urjaenterprises.in/products/seed-3-3</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://urjaenterprises.in/products/seed-3-4</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://urjaenterprises.in/products/seed-4-1</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://urjaenterprises.in/products/seed-4-2</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://urjaenterprises.in/products/seed-5-1</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://urjaenterprises.in/products/seed-6-1</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://urjaenterprises.in/products/seed-7-1</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://urjaenterprises.in/products/seed-8-1</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://urjaenterprises.in/products/seed-9-1</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://urjaenterprises.in/products/seed-10-1</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://urjaenterprises.in/products/seed-11-1</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://urjaenterprises.in/products/seed-12-1</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <!-- Product Pages -->
+  <url><loc>https://urjaenterprises.in/products/38kv-vacuum-circuit-breaker</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://urjaenterprises.in/products/66kv-sf6-gas-circuit-breaker</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://urjaenterprises.in/products/145-kv-sf6-gas-circuit-breaker</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://urjaenterprises.in/products/porcelain-clad-vacuum-circuit-breaker</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://urjaenterprises.in/products/33kv-outdoor-vacuum-circuit-breaker</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://urjaenterprises.in/products/cg-12kv-vacuum-circuit-breaker</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://urjaenterprises.in/products/vcb-tripping-coil</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://urjaenterprises.in/products/closing-tripping-coil</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://urjaenterprises.in/products/110v-dc-tripping-coil</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://urjaenterprises.in/products/circuit-breaker-tripping-coil</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://urjaenterprises.in/products/delco-spring-charging-motor</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://urjaenterprises.in/products/electric-spring-charging-motor</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://urjaenterprises.in/products/spring-charging-motor-for-vcb</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://urjaenterprises.in/products/spring-charging-mechanism</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://urjaenterprises.in/products/outdoor-current-transformer</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://urjaenterprises.in/products/33kv-outdoor-current-transformer</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://urjaenterprises.in/products/tnc-trip-neutral-close-single-pole</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://urjaenterprises.in/products/vcb-panel-spare-parts-kit</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://urjaenterprises.in/products/crompton-greaves-vacuum-circuit-breaker</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://urjaenterprises.in/products/abb-opening-release-shunt</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://urjaenterprises.in/products/11kv-indoor-double-pole-potential-transformer</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://urjaenterprises.in/products/busbar-support-insulator</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://urjaenterprises.in/products/capacitive-voltage-transformer</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://urjaenterprises.in/products/tnc-trip-neutral-close-double-pole</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+
+  <!-- Category & SEO Pages -->
+  <url><loc>https://urjaenterprises.in/products/vcb-closing-tripping-coils</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://urjaenterprises.in/products/vcb-mechanisms-and-spares</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://urjaenterprises.in/products/auxiliary-limit-switches</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://urjaenterprises.in/products/vcb-pole-assembly-insulators</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  
+  <url><loc>https://urjaenterprises.in/products/Circuit%20Breaker</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://urjaenterprises.in/products/Tripping%20Coil</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://urjaenterprises.in/products/Spring%20Charging%20Motor</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://urjaenterprises.in/products/Current%20Transformer</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://urjaenterprises.in/products/Switches</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://urjaenterprises.in/products/VCB%20Panel%20Spares</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://urjaenterprises.in/products/Vacuum%20Circuit%20Breaker</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://urjaenterprises.in/products/ABB%20Shunt%20Opening%20Release</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://urjaenterprises.in/products/Potential%20Transformer</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://urjaenterprises.in/products/Busbar%20Support</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://urjaenterprises.in/products/Voltage%20Transformer</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://urjaenterprises.in/products/MCB</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 </urlset>

@@ -26,6 +26,26 @@ const App = () => (
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/products" element={<Products />} />
+            
+            {/* Custom SEO Routes for Products mapping to specific categories */}
+            <Route path="/products/vcb-closing-tripping-coils" element={<Products predefinedCategory="Tripping Coil" />} />
+            <Route path="/products/vcb-mechanisms-and-spares" element={<Products predefinedCategory="VCB Panel Spares" />} />
+            <Route path="/products/auxiliary-limit-switches" element={<Products predefinedCategory="Switches" />} />
+            <Route path="/products/vcb-pole-assembly-insulators" element={<Products predefinedCategory="VCB Panel Spares" />} />
+            
+            <Route path="/products/Circuit Breaker" element={<Products predefinedCategory="Circuit Breaker" />} />
+            <Route path="/products/Tripping Coil" element={<Products predefinedCategory="Tripping Coil" />} />
+            <Route path="/products/Spring Charging Motor" element={<Products predefinedCategory="Spring Charging Motor" />} />
+            <Route path="/products/Current Transformer" element={<Products predefinedCategory="Current Transformer" />} />
+            <Route path="/products/Switches" element={<Products predefinedCategory="Switches" />} />
+            <Route path="/products/VCB Panel Spares" element={<Products predefinedCategory="VCB Panel Spares" />} />
+            <Route path="/products/Vacuum Circuit Breaker" element={<Products predefinedCategory="Vacuum Circuit Breaker" />} />
+            <Route path="/products/ABB Shunt Opening Release" element={<Products predefinedCategory="ABB Shunt Opening Release" />} />
+            <Route path="/products/Potential Transformer" element={<Products predefinedCategory="Potential Transformer" />} />
+            <Route path="/products/Busbar Support" element={<Products predefinedCategory="Busbar Support" />} />
+            <Route path="/products/Voltage Transformer" element={<Products predefinedCategory="Voltage Transformer" />} />
+            <Route path="/products/MCB" element={<Products predefinedCategory="MCB" />} />
+
             <Route path="/products/:id" element={<ProductDetail />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />

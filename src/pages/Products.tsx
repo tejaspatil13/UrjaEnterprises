@@ -8,12 +8,20 @@ import { Button } from "@/components/ui/button";
 import { getProducts, PRODUCT_CATALOG } from "@/lib/products";
 import { Product, CATEGORIES } from "@/types/product";
 
-const Products = () => {
+const Products = ({ predefinedCategory }: { predefinedCategory?: string }) => {
   const navigate = useNavigate();
   const [products, setProducts] = useState<Product[]>([]);
   const [query, setQuery] = useState("");
-  const [category, setCategory] = useState<string>("All");
+  const [category, setCategory] = useState<string>(predefinedCategory || "All");
   const [subCategory, setSubCategory] = useState<string>("All");
+
+  useEffect(() => {
+    if (predefinedCategory) {
+      setCategory(predefinedCategory);
+    } else {
+      setCategory("All");
+    }
+  }, [predefinedCategory]);
 
   useEffect(() => {
     document.title = "Products | Urja Enterprises";
@@ -60,6 +68,7 @@ const Products = () => {
                 variant={category === "All" ? "default" : "ghost"}
                 className="w-full justify-start"
                 onClick={() => {
+                  navigate("/products");
                   setCategory("All");
                   setSubCategory("All");
                 }}
@@ -72,6 +81,7 @@ const Products = () => {
                     variant={category === c ? "default" : "ghost"}
                     className="w-full justify-start"
                     onClick={() => {
+                      navigate(`/products/${c}`);
                       setCategory(c);
                       setSubCategory("All");
                     }}
@@ -120,6 +130,7 @@ const Products = () => {
                   key={c}
                   variant={category === c ? "default" : "outline"}
                   onClick={() => {
+                    navigate(c === "All" ? "/products" : `/products/${c}`);
                     setCategory(c);
                     setSubCategory("All");
                   }}
